@@ -27,47 +27,7 @@
   .btn{display:inline-block;background:var(--color-whatsapp);color:#fff;font-weight:700;text-decoration:none;padding:14px 24px;border-radius:999px;font-size:1.05rem}
   .btn.sec{background:transparent;border:2px solid #fff;margin-left:8px}
 
-  /* Hero */
-  header.hero{background:var(--color-oscuro);color:#fff;padding:64px 0 56px}
-  .marca{display:inline-block;font-weight:700;letter-spacing:.5px;color:var(--color-principal);background:#fff;padding:4px 12px;border-radius:999px;font-size:.85rem;margin-bottom:18px}
-  .hero p{margin:16px 0 28px;color:#d6deea;max-width:560px}
 
-  /* Servicios */
-  .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-  .card{background:var(--color-claro);border-radius:16px;padding:24px}
-  .card .ico{font-size:2rem;margin-bottom:10px}
-  .card h3{margin-bottom:6px;font-size:1.15rem}
-
-  /* Ejemplos */
-  .ejemplos{background:var(--color-claro)}
-  .ej{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.06)}
-  .ej .foto{aspect-ratio:4/5;background:linear-gradient(135deg,var(--color-principal),var(--color-oscuro));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;text-align:center;padding:16px}
-  .ej .foto img{width:100%;height:100%;object-fit:cover}
-  .ej .txt{padding:16px}
-  .ej .txt small{color:#5b6573}
-
-  /* Precios */
-  .precio{display:flex;flex-direction:column;gap:6px}
-  .precio .monto{font-size:1.8rem;font-weight:800;color:var(--color-principal)}
-  .precio ul{padding-left:18px;font-size:.95rem}
-  .destacado{border:2px solid var(--color-principal);background:#fff}
-  .nota{margin-top:18px;font-size:.92rem;color:#5b6573}
-
-  /* Pasos */
-  .pasos{counter-reset:p;display:grid;gap:16px}
-  .paso{display:flex;gap:16px;align-items:flex-start}
-  .paso::before{counter-increment:p;content:counter(p);flex:0 0 40px;height:40px;border-radius:50%;background:var(--color-principal);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
-
-  /* Contacto */
-  .contacto{background:var(--color-oscuro);color:#fff;text-align:center}
-  .contacto p{margin:12px auto 24px;color:#d6deea;max-width:520px}
-  footer{padding:20px;text-align:center;font-size:.85rem;color:#5b6573}
-
-  /* Botón flotante */
-  .flotante{position:fixed;right:16px;bottom:16px;width:60px;height:60px;border-radius:50%;background:var(--color-whatsapp);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.3);text-decoration:none;font-size:1.9rem;z-index:10}
-</style>
-</head>
-<body>
 
 <header class="hero">
   <div class="wrap">
